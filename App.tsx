@@ -12,6 +12,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import {AuthProvider, useAuth} from './src/services/database/use-auth';
 import {AuthScreen} from './src/screens/AuthScreen';
 import {WelcomeScreen} from './src/screens/WelcomeScreen';
+import { DatabaseProvider } from './src/services/database/database';
 
 const RootStack = createStackNavigator<RootStackParamList>();
 
@@ -33,7 +34,9 @@ function App(): React.JSX.Element {
 const Root = () => {
   return (
     <AuthProvider>
-      <App />
+      <DatabaseProvider>
+        <App />
+      </DatabaseProvider>
     </AuthProvider>
   );
 };

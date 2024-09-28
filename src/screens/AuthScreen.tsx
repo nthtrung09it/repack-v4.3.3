@@ -31,7 +31,7 @@ export const AuthScreen: React.FC = () => {
 
   useEffect(() => {
     if (user) {
-      navigation.navigate('WelcomeScreen');
+      navigation.navigate('WelcomeScreen',);
     }
   }, [navigation, user]);
 

@@ -3,6 +3,7 @@ import * as React from 'react';
 import {Button, StyleProp, View, ViewStyle} from 'react-native';
 // import {observer} from 'mobx-react-lite';
 import {useAuth} from '../services/database/use-auth';
+import {useDatabase} from '../services/database/database';
 
 export interface SignOutButtonProps {
   /**
@@ -19,8 +20,10 @@ export const SignOutButton = (props: SignOutButtonProps) => {
   const $styles = [$container, style];
 
   const {signOut} = useAuth();
+  const {powersync} = useDatabase();
 
   const handleSignOut = async () => {
+    await powersync.disconnectAndClear();
     await signOut();
   };
 

@@ -2,11 +2,12 @@
 import React from 'react';
 import {SafeAreaView, ViewStyle} from 'react-native';
 import {SignOutButton} from '../components/SignOutButton';
+import {Lists} from '../components/Lists';
 
 export const WelcomeScreen: React.FC = () => {
   return (
     <SafeAreaView style={$container}>
-      {/* <Lists /> */}
+      <Lists />
       <SignOutButton />
     </SafeAreaView>
   );
