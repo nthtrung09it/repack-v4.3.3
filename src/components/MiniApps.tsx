@@ -1,8 +1,6 @@
 // app/components/Lists.tsx
-import {NavigationProp, useNavigation} from '@react-navigation/native';
 import React, {useCallback} from 'react';
 import {
-  Button,
   FlatList,
   RefreshControl,
   Text,
@@ -12,51 +10,41 @@ import {
   ViewStyle,
 } from 'react-native';
 import {colors, spacing} from '../theme';
-import {ListItemRecord, useLists} from '../services/database/useLists';
-import {AddList} from './AddList';
+import {useMiniApps} from '../services/database/useMiniApps';
+import {MiniAppRecord} from '../services/database/schema';
 
-export const Lists = () => {
+export const MiniApps = () => {
   // use our hook to fetch the lists
-  const {isFetching, isLoading, lists, deleteList, refresh} = useLists();
+  const {isFetching, miniApps, refresh} = useMiniApps();
 
   // This function tells FlatList how to render each item
-  const renderItem = useCallback(
-    ({item}: {item: ListItemRecord}) => {
-      return (
-        <TouchableOpacity key={item.id} onPress={() => {}}>
-          <View>
-            <Text>{item.name}</Text>
-            <Button title="Delete" onPress={() => deleteList(item.id)} />
-          </View>
-        </TouchableOpacity>
-      );
-    },
-    [deleteList],
-  );
+  const renderItem = useCallback(({item}: {item: MiniAppRecord}) => {
+    return (
+      <TouchableOpacity key={item.id} onPress={() => {}}>
+        <View>
+          <Text>{item.name}</Text>
+        </View>
+      </TouchableOpacity>
+    );
+  }, []);
 
   return (
     <View style={$container}>
-      <Text>Lists</Text>
-      <Text>isFetching: {isFetching ? 'fetching' : ''}</Text>
-      <Text>isLoading: {isLoading}</Text>
-      <View style={$card}>
-        <AddList />
-      </View>
+      <Text>Mini Apps</Text>
       <View style={[$list, $card]}>
-        <Text>Your Lists</Text>
         <FlatList
           refreshControl={
             <RefreshControl refreshing={isFetching} onRefresh={refresh} />
           }
           style={$listContainer}
           // pass in our lists
-          data={lists}
+          data={miniApps}
           // pass in our renderItem function
           renderItem={renderItem}
           keyExtractor={item => item.id}
           ItemSeparatorComponent={() => <View style={$separator} />}
           // show a message if the list is empty
-          ListEmptyComponent={<Text style={$emptyList}>No lists found</Text>}
+          ListEmptyComponent={<Text style={$emptyList}>No mini apps</Text>}
         />
       </View>
     </View>
@@ -96,15 +84,4 @@ const $container: ViewStyle = {
   display: 'flex',
   flexGrow: 1,
   padding: spacing.md,
-};
-const $listItemText: TextStyle = {
-  height: 44,
-  width: 44,
-};
-const $deleteListIcon: ViewStyle = {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  height: 44,
-  marginVertical: spacing.xxs,
 };

@@ -36,5 +36,13 @@ target 'MyAwesomeProjectV2' do
       :mac_catalyst_enabled => false,
       # :ccache_enabled => true
     )
+
+    installer.pod_targets.each do |pod|
+      next unless pod.name.eql?('react-native-quick-sqlite')
+
+      def pod.build_type
+        Pod::BuildType.static_library
+      end
+    end
   end
 end

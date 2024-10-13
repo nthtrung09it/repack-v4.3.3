@@ -16,8 +16,8 @@ import {RootStackParamList} from '../NavigationTypes';
 
 export const AuthScreen: React.FC = () => {
   const {signUp, signIn, loading, error, user} = useAuth();
-  const [email, setEmail] = useState('nthtrung09it@gmail.com');
-  const [password, setPassword] = useState('123123');
+  const [email, setEmail] = useState('admin@chibi.vn');
+  const [password, setPassword] = useState('123123123123');
 
   const navigation = useNavigation();
 

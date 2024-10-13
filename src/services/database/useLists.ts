@@ -1,8 +1,10 @@
 import {useQuery} from '@powersync/react-native';
 import {useCallback} from 'react';
+import {nanoid} from 'nanoid/non-secure';
 import {useAuth} from './use-auth';
 import {useDatabase} from './database';
 import {ListRecord, LISTS_TABLE, TODOS_TABLE} from './schema';
+import {generateUUID} from '../../utils/help';
 
 // Extend the base type with the calculated fields from our query
 export type ListItemRecord = ListRecord & {
@@ -17,14 +19,35 @@ export const useLists = () => {
   const {powersync} = useDatabase();
 
   // List fetching logic here. You can modify it as per your needs.
-  const {data: lists} = useQuery<ListItemRecord>(`
-      SELECT ${LISTS_TABLE}.*,
-             COUNT(${TODOS_TABLE}.id) AS total_tasks,
-             SUM(CASE WHEN ${TODOS_TABLE}.completed = true THEN 1 ELSE 0 END) as completed_tasks
+  // const {
+  //   isFetching,
+  //   isLoading,
+  //   data: lists,
+  // } = useQuery<ListItemRecord>(
+  //   `
+  //     SELECT ${LISTS_TABLE}.*,
+  //            COUNT(${TODOS_TABLE}.id) AS total_tasks,
+  //            SUM(CASE WHEN ${TODOS_TABLE}.completed = true THEN 1 ELSE 0 END) as completed_tasks
+  //     FROM ${LISTS_TABLE}
+  //              LEFT JOIN ${TODOS_TABLE} ON ${LISTS_TABLE}.id = ${TODOS_TABLE}.list_id
+  //     GROUP BY ${LISTS_TABLE}.id
+  // `,
+  //   [],
+  //   {},
+  // );
+  const {
+    isFetching,
+    isLoading,
+    data: lists,
+    refresh,
+  } = useQuery<ListItemRecord>(
+    `
+      SELECT ${LISTS_TABLE}.*
       FROM ${LISTS_TABLE}
-               LEFT JOIN ${TODOS_TABLE} ON ${LISTS_TABLE}.id = ${TODOS_TABLE}.list_id
-      GROUP BY ${LISTS_TABLE}.id
-  `);
+  `,
+    [],
+    {},
+  );
 
   const createList = useCallback(
     async (name: string) => {
@@ -56,5 +79,5 @@ export const useLists = () => {
     [powersync],
   );
 
-  return {lists, createList, deleteList};
+  return {lists, isFetching, isLoading, refresh, createList, deleteList};
 };

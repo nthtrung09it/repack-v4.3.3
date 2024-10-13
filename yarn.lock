@@ -1971,13 +1971,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@journeyapps/react-native-quick-sqlite@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "@journeyapps/react-native-quick-sqlite@npm:1.4.0"
+"@journeyapps/react-native-quick-sqlite@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@journeyapps/react-native-quick-sqlite@npm:2.0.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: b37e4489d877a5a4970374019c343b6c828472151cbd5218f503f50a065fc39f1ecf2697241e6e16f1d8c3f698c7474efc57eedc4c9b06a141685ef09abbb1db
+  checksum: 41cc7a48143c28aa0295add1a033df2c9db59287b883f78457dac02cc59a182d1f91962da399176d41540be9c3b9b292e936fe3b902d720809f613d5b39889da
   languageName: node
   linkType: hard
 
@@ -2107,37 +2107,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@powersync/common@npm:1.18.1":
-  version: 1.18.1
-  resolution: "@powersync/common@npm:1.18.1"
+"@powersync/common@npm:1.19.0":
+  version: 1.19.0
+  resolution: "@powersync/common@npm:1.19.0"
   dependencies:
     js-logger: ^1.6.1
-  checksum: 322277a8ae83ce7c270f9c9b82b62fcbd2b05ee342b68cd31a61d226e25f1def002b57a148318e4cf5f1f063b79a2ffa70c2bdd63f8a20ac0b4df57dc40d9ec0
+  checksum: b9ed83a38a5f329b4b2d0e9f0e7167c13165061658f6a859b62d0a35b35c2f6e90c52dc9e13b57497a928dbc0f4f294ddcf30d6f39046179db20b1f961482355
   languageName: node
   linkType: hard
 
-"@powersync/react-native@npm:^1.12.2":
-  version: 1.12.2
-  resolution: "@powersync/react-native@npm:1.12.2"
+"@powersync/react-native@npm:^1.12.4":
+  version: 1.13.0
+  resolution: "@powersync/react-native@npm:1.13.0"
   dependencies:
-    "@powersync/common": 1.18.1
-    "@powersync/react": 1.4.3
+    "@powersync/common": 1.19.0
+    "@powersync/react": 1.4.5
   peerDependencies:
-    "@journeyapps/react-native-quick-sqlite": ^1.3.0
-    "@powersync/common": ^1.18.1
+    "@journeyapps/react-native-quick-sqlite": ^1.4.0
+    "@powersync/common": ^1.19.0
     react: "*"
     react-native: "*"
-  checksum: 366ef6a7e2bc2c1bec14b82ccc7db1ec6d5dabc5d1953251bfed783b6cd434a55aa4a1445485ae8f4e564f76df2daa7d8180ebeb9ee984d88a38dc0298670017
+  peerDependenciesMeta:
+    "@journeyapps/react-native-quick-sqlite":
+      optional: true
+  checksum: cc9ed740382760fb54f32ee7519ddf5bd298049a11218ce2ce7c001d71f62358ad13ecf9b6e65d5fb5af54ecd835d83da3552f2035b1d0e961f11fddc2bd1c35
   languageName: node
   linkType: hard
 
-"@powersync/react@npm:1.4.3":
-  version: 1.4.3
-  resolution: "@powersync/react@npm:1.4.3"
+"@powersync/react@npm:1.4.5":
+  version: 1.4.5
+  resolution: "@powersync/react@npm:1.4.5"
   peerDependencies:
-    "@powersync/common": ^1.18.1
+    "@powersync/common": ^1.19.0
     react: "*"
-  checksum: 088023d2ac47ffdbc502fae2124819f5bb9e8f041ad8ce1ba5e345f1a6d2a34a23298573ab4b034248473437ea45869ed86d9f8e7c1fba9a5276cb4951713274
+  checksum: a202050bf4e4917c0544a3d21166070e31e4061eebdd84bd6ce463510ada43650644f47778246c66fce59ae6e0d27a348f2fdb28782064d60756ae616e7f766c
   languageName: node
   linkType: hard
 
@@ -3173,9 +3176,9 @@ __metadata:
     "@babel/plugin-transform-async-generator-functions": ^7.25.4
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@journeyapps/react-native-quick-sqlite": ^1.4.0
+    "@journeyapps/react-native-quick-sqlite": ^2.0.0
     "@powersync/attachments": ^2.1.2
-    "@powersync/react-native": ^1.12.2
+    "@powersync/react-native": ^1.12.4
     "@react-native-async-storage/async-storage": ^2.0.0
     "@react-native/babel-preset": 0.75.3
     "@react-native/eslint-config": 0.75.3
@@ -3192,6 +3195,7 @@ __metadata:
     base64-arraybuffer: ^1.0.2
     eslint: ^8.19.0
     jest: ^29.6.3
+    js-logger: ^1.6.1
     lodash: ^4.17.21
     nanoid: ^5.0.7
     prettier: 2.8.8

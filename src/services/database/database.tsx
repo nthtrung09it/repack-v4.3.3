@@ -22,7 +22,7 @@ export class Database {
     try {
       this.powersync = new PowerSyncDatabase({
         database: {
-          dbFilename: 'sqlite.db',
+          dbFilename: 'powersync_5.sqlite.db',
         },
         schema: AppSchema,
       });

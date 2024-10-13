@@ -1,9 +1,9 @@
-  $ /private/var/folders/_z/4c1z6dzs1yl06lllfgd0plnc0000gp/T/xfs-282cc6ef/node -p require.resolve(     "react-native/scripts/react_native_pods.rb",     {paths: [process.argv[1]]},   ) /Users/kernel/Documents/MyAwesomeProjectV2/ios
-  /Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native/scripts/react_native_pods.rb
+  $ /private/var/folders/_z/4c1z6dzs1yl06lllfgd0plnc0000gp/T/xfs-4703f24f/node -p require.resolve(     "react-native/scripts/react_native_pods.rb",     {paths: [process.argv[1]]},   ) /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios
+  /Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native/scripts/react_native_pods.rb
 [react-native-mmkv] Thank you for using react-native-mmkv ❤️
 [react-native-mmkv] If you enjoy using react-native-mmkv, please consider sponsoring this project: https://github.com/sponsors/mrousavy
 Found 8 modules for target `MyAwesomeProjectV2`
-link_native_modules! {:ios_packages=>[{:configurations=>[], :name=>"@journeyapps/react-native-quick-sqlite", :root=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/@journeyapps/react-native-quick-sqlite", :path=>"../node_modules/@journeyapps/react-native-quick-sqlite", :podspec_path=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/@journeyapps/react-native-quick-sqlite/react-native-quick-sqlite.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"@react-native-async-storage/async-storage", :root=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/@react-native-async-storage/async-storage", :path=>"../node_modules/@react-native-async-storage/async-storage", :podspec_path=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/@react-native-async-storage/async-storage/RNCAsyncStorage.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-fs", :root=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-fs", :path=>"../node_modules/react-native-fs", :podspec_path=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-fs/RNFS.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-gesture-handler", :root=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-gesture-handler", :path=>"../node_modules/react-native-gesture-handler", :podspec_path=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-gesture-handler/RNGestureHandler.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-mmkv", :root=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-mmkv", :path=>"../node_modules/react-native-mmkv", :podspec_path=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-mmkv/react-native-mmkv.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-safe-area-context", :root=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-safe-area-context", :path=>"../node_modules/react-native-safe-area-context", :podspec_path=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-screens", :root=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-screens", :path=>"../node_modules/react-native-screens", :podspec_path=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-screens/RNScreens.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-vector-icons", :root=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-vector-icons", :path=>"../node_modules/react-native-vector-icons", :podspec_path=>"/Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native-vector-icons/RNVectorIcons.podspec", :script_phases=>[]}], :ios_project_root_path=>"/Users/kernel/Documents/MyAwesomeProjectV2/ios", :react_native_path=>"../node_modules/react-native"}
+link_native_modules! {:ios_packages=>[{:configurations=>[], :name=>"@journeyapps/react-native-quick-sqlite", :root=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/@journeyapps/react-native-quick-sqlite", :path=>"../node_modules/@journeyapps/react-native-quick-sqlite", :podspec_path=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/@journeyapps/react-native-quick-sqlite/react-native-quick-sqlite.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"@react-native-async-storage/async-storage", :root=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/@react-native-async-storage/async-storage", :path=>"../node_modules/@react-native-async-storage/async-storage", :podspec_path=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/@react-native-async-storage/async-storage/RNCAsyncStorage.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-fs", :root=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-fs", :path=>"../node_modules/react-native-fs", :podspec_path=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-fs/RNFS.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-gesture-handler", :root=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-gesture-handler", :path=>"../node_modules/react-native-gesture-handler", :podspec_path=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-gesture-handler/RNGestureHandler.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-mmkv", :root=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-mmkv", :path=>"../node_modules/react-native-mmkv", :podspec_path=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-mmkv/react-native-mmkv.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-safe-area-context", :root=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-safe-area-context", :path=>"../node_modules/react-native-safe-area-context", :podspec_path=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-screens", :root=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-screens", :path=>"../node_modules/react-native-screens", :podspec_path=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-screens/RNScreens.podspec", :script_phases=>[]}, {:configurations=>[], :name=>"react-native-vector-icons", :root=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-vector-icons", :path=>"../node_modules/react-native-vector-icons", :podspec_path=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native-vector-icons/RNVectorIcons.podspec", :script_phases=>[]}], :ios_project_root_path=>"/Users/kernel/Documents/elearning-react-native-supabase-powersync/ios", :react_native_path=>"../node_modules/react-native"}
 [react-native-mmkv] Thank you for using react-native-mmkv ❤️
 [react-native-mmkv] If you enjoy using react-native-mmkv, please consider sponsoring this project: https://github.com/sponsors/mrousavy
 Auto-linking React Native modules for target `MyAwesomeProjectV2`: RNCAsyncStorage, RNFS, RNGestureHandler, RNScreens, RNVectorIcons, react-native-mmkv, react-native-quick-sqlite, and react-native-safe-area-context
@@ -11,8 +11,8 @@ Framework build type is static library
 [Codegen] Adding script_phases to ReactCodegen.
   $ /bin/mkdir -p ./build/generated/ios
 [Codegen] Generating ./build/generated/ios/ReactCodegen.podspec.json
-  $ /private/var/folders/_z/4c1z6dzs1yl06lllfgd0plnc0000gp/T/xfs-282cc6ef/node ./../node_modules/react-native/scripts/generate-codegen-artifacts.js -p /Users/kernel/Documents/MyAwesomeProjectV2/ios/.. -o /Users/kernel/Documents/MyAwesomeProjectV2/ios -t ios
-  [Codegen] Analyzing /Users/kernel/Documents/MyAwesomeProjectV2/package.json
+  $ /private/var/folders/_z/4c1z6dzs1yl06lllfgd0plnc0000gp/T/xfs-4703f24f/node ./../node_modules/react-native/scripts/generate-codegen-artifacts.js -p /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/.. -o /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios -t ios
+  [Codegen] Analyzing /Users/kernel/Documents/elearning-react-native-supabase-powersync/package.json
   [Codegen] Searching for codegen-enabled libraries in the app.
   [Codegen] The "codegenConfig" field is not defined in package.json. Assuming there is nothing to generate at the app level.
   [Codegen] Searching for codegen-enabled libraries in the project dependencies.
@@ -49,24 +49,24 @@ Framework build type is static library
   [Codegen] Searching for podspec in the project dependencies.
   [Codegen] Supported Apple platforms: ios, tvos, visionos for RNVectorIconsSpec
   [Codegen] Generating Native Code for rnasyncstorage - ios
-  [Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+  [Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
   [Codegen] Generating Native Code for FBReactNativeSpec - ios
-  [Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+  [Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
   [Codegen - rncore] Skipping iOS code generation for rncore as it has been generated already.
   [Codegen] Generating Native Code for rngesturehandler_codegen - ios
-  [Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+  [Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
   [Codegen] Generating Native Code for RNMmkvSpec - ios
-  [Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+  [Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
   [Codegen] Generating Native Code for safeareacontext - ios
-  [Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+  [Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
   [Codegen] Generating Native Code for rnscreens - ios
-  [Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+  [Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
   [Codegen] Generating Native Code for RNVectorIconsSpec - ios
-  [Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+  [Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
   [Codegen] Creating component provider.
-  [Codegen] Generated provider in: /Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native/React/Fabric
+  [Codegen] Generated provider in: /Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native/React/Fabric
   [Codegen] Done.
-[Codegen] Analyzing /Users/kernel/Documents/MyAwesomeProjectV2/package.json
+[Codegen] Analyzing /Users/kernel/Documents/elearning-react-native-supabase-powersync/package.json
 [Codegen] Searching for codegen-enabled libraries in the app.
 [Codegen] The "codegenConfig" field is not defined in package.json. Assuming there is nothing to generate at the app level.
 [Codegen] Searching for codegen-enabled libraries in the project dependencies.
@@ -103,22 +103,22 @@ Framework build type is static library
 [Codegen] Searching for podspec in the project dependencies.
 [Codegen] Supported Apple platforms: ios, tvos, visionos for RNVectorIconsSpec
 [Codegen] Generating Native Code for rnasyncstorage - ios
-[Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+[Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
 [Codegen] Generating Native Code for FBReactNativeSpec - ios
-[Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+[Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
 [Codegen - rncore] Skipping iOS code generation for rncore as it has been generated already.
 [Codegen] Generating Native Code for rngesturehandler_codegen - ios
-[Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+[Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
 [Codegen] Generating Native Code for RNMmkvSpec - ios
-[Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+[Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
 [Codegen] Generating Native Code for safeareacontext - ios
-[Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+[Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
 [Codegen] Generating Native Code for rnscreens - ios
-[Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+[Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
 [Codegen] Generating Native Code for RNVectorIconsSpec - ios
-[Codegen] Generated artifacts: /Users/kernel/Documents/MyAwesomeProjectV2/ios/build/generated/ios
+[Codegen] Generated artifacts: /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/build/generated/ios
 [Codegen] Creating component provider.
-[Codegen] Generated provider in: /Users/kernel/Documents/MyAwesomeProjectV2/node_modules/react-native/React/Fabric
+[Codegen] Generated provider in: /Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native/React/Fabric
 [Codegen] Done.
   Preparing
 
@@ -274,480 +274,51 @@ Resolving dependencies of `Podfile`
   CDN: trunk Relative path: Specs/a/9/3/SocketRocket/0.7.1/SocketRocket.podspec.json exists! Returning local because checking is only performed in repo update
   CDN: trunk Relative path: all_pods_versions_5_b_e.txt exists! Returning local because checking is only performed in repo update
   CDN: trunk Relative path: Specs/5/b/e/powersync-sqlite-core/0.2.1/powersync-sqlite-core.podspec.json exists! Returning local because checking is only performed in repo update
-  CDN: trunk Relative path: Specs/5/b/e/powersync-sqlite-core/0.2.1/powersync-sqlite-core.podspec.json exists! Returning local because checking is only performed in repo update
-  CDN: trunk Relative path: Specs/a/9/3/SocketRocket/0.7.0/SocketRocket.podspec.json exists! Returning local because checking is only performed in repo update
-
-Comparing resolved specification to the sandbox manifest
-  M RNCAsyncStorage
-  M RNGestureHandler
-  M RNScreens
-  M RNVectorIcons
-  M React-RCTAppDelegate
-  M React-RCTFabric
-  M React-defaultsnativemodule
-  M React-domnativemodule
-  M React-featureflagsnativemodule
-  M React-idlecallbacksnativemodule
-  M React-microtasksnativemodule
-  M react-native-mmkv
-  M react-native-quick-sqlite
-  M react-native-safe-area-context
-  - DoubleConversion
-  - FBLazyVector
-  - RCT-Folly
-  - RCTDeprecation
-  - RCTRequired
-  - RCTTypeSafety
-  - RNFS
-  - React
-  - React-Core
-  - React-CoreModules
-  - React-Fabric
-  - React-FabricComponents
-  - React-FabricImage
-  - React-ImageManager
-  - React-Mapbuffer
-  - React-NativeModulesApple
-  - React-RCTActionSheet
-  - React-RCTAnimation
-  - React-RCTBlob
-  - React-RCTImage
-  - React-RCTLinking
-  - React-RCTNetwork
-  - React-RCTSettings
-  - React-RCTText
-  - React-RCTVibration
-  - React-RuntimeApple
-  - React-RuntimeCore
-  - React-RuntimeHermes
-  - React-callinvoker
-  - React-cxxreact
-  - React-debug
-  - React-featureflags
-  - React-graphics
-  - React-hermes
-  - React-jserrorhandler
-  - React-jsi
-  - React-jsiexecutor
-  - React-jsinspector
-  - React-jsitracing
-  - React-logger
-  - React-nativeconfig
-  - React-perflogger
-  - React-performancetimeline
-  - React-rendererconsistency
-  - React-rendererdebug
-  - React-rncore
-  - React-runtimeexecutor
-  - React-runtimescheduler
-  - React-utils
-  - ReactCodegen
-  - ReactCommon
-  - SocketRocket
-  - Yoga
-  - boost
-  - fmt
-  - glog
-  - hermes-engine
-  - powersync-sqlite-core
-
-Downloading dependencies
-
--> Using DoubleConversion (1.1.6)
-
--> Using FBLazyVector (0.75.3)
-
--> Using RCT-Folly (2024.01.01.00)
-
--> Using RCTDeprecation (0.75.3)
-
--> Using RCTRequired (0.75.3)
-
--> Using RCTTypeSafety (0.75.3)
-
--> Installing RNCAsyncStorage 2.0.0
-
--> Using RNFS (2.20.0)
-
--> Installing RNGestureHandler 2.20.0
-
--> Installing RNScreens 3.34.0
-
--> Installing RNVectorIcons 10.2.0
-
--> Using React (0.75.3)
-
--> Using React-Core (0.75.3)
-
--> Using React-CoreModules (0.75.3)
-
--> Using React-Fabric (0.75.3)
-
--> Using React-FabricComponents (0.75.3)
-
--> Using React-FabricImage (0.75.3)
-
--> Using React-ImageManager (0.75.3)
-
--> Using React-Mapbuffer (0.75.3)
-
--> Using React-NativeModulesApple (0.75.3)
-
--> Using React-RCTActionSheet (0.75.3)
-
--> Using React-RCTAnimation (0.75.3)
-
--> Installing React-RCTAppDelegate 0.75.3
-
--> Using React-RCTBlob (0.75.3)
-
--> Installing React-RCTFabric 0.75.3
-
--> Using React-RCTImage (0.75.3)
-
--> Using React-RCTLinking (0.75.3)
-
--> Using React-RCTNetwork (0.75.3)
-
--> Using React-RCTSettings (0.75.3)
-
--> Using React-RCTText (0.75.3)
-
--> Using React-RCTVibration (0.75.3)
-
--> Using React-RuntimeApple (0.75.3)
-
--> Using React-RuntimeCore (0.75.3)
-
--> Using React-RuntimeHermes (0.75.3)
-
--> Using React-callinvoker (0.75.3)
-
--> Using React-cxxreact (0.75.3)
-
--> Using React-debug (0.75.3)
-
--> Installing React-defaultsnativemodule 0.75.3
-
--> Installing React-domnativemodule 0.75.3
-
--> Using React-featureflags (0.75.3)
-
--> Installing React-featureflagsnativemodule 0.75.3
-
--> Using React-graphics (0.75.3)
-
--> Using React-hermes (0.75.3)
-
--> Installing React-idlecallbacksnativemodule 0.75.3
-
--> Using React-jserrorhandler (0.75.3)
-
--> Using React-jsi (0.75.3)
-
--> Using React-jsiexecutor (0.75.3)
-
--> Using React-jsinspector (0.75.3)
-
--> Using React-jsitracing (0.75.3)
-
--> Using React-logger (0.75.3)
-
--> Installing React-microtasksnativemodule 0.75.3
-
--> Using React-nativeconfig (0.75.3)
-
--> Using React-perflogger (0.75.3)
-
--> Using React-performancetimeline (0.75.3)
-
--> Using React-rendererconsistency (0.75.3)
-
--> Using React-rendererdebug (0.75.3)
-
--> Using React-rncore (0.75.3)
-
--> Using React-runtimeexecutor (0.75.3)
-
--> Using React-runtimescheduler (0.75.3)
-
--> Using React-utils (0.75.3)
-
--> Using ReactCodegen (0.75.3)
-
--> Using ReactCommon (0.75.3)
-
--> Using SocketRocket (0.7.0)
-
--> Using Yoga (0.0.0)
-
--> Using boost (1.84.0)
-
--> Using fmt (9.1.0)
-
--> Using glog (0.3.5)
-
--> Using hermes-engine (0.75.3)
-
--> Using powersync-sqlite-core (0.2.1)
-
--> Installing react-native-mmkv 3.0.2
-
--> Installing react-native-quick-sqlite 1.4.0
-
--> Installing react-native-safe-area-context 4.11.0
-  - Running pre install hooks
-  - Running pre integrate hooks
-
-Generating Pods project
-  - Creating Pods project
-  - Installing files into Pods project
-    - Adding source files
-    - Adding frameworks
-    - Adding libraries
-    - Adding resources
-    - Adding development pod helper files
-    - Linking headers
-  - Installing Pod Targets
-    - Installing target `DoubleConversion` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/DoubleConversion/DoubleConversion.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/DoubleConversion/DoubleConversion-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/DoubleConversion/DoubleConversion-dummy.m`
-    - Installing target `FBLazyVector` iOS 13.4
-    - Installing target `RCT-Folly` iOS 13.4
-      - Generating Info.plist file at `Pods/Target Support Files/RCT-Folly/ResourceBundle-RCT-Folly_privacy-RCT-Folly-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/RCT-Folly/RCT-Folly.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/RCT-Folly/RCT-Folly-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/RCT-Folly/RCT-Folly-dummy.m`
-    - Installing target `RCTDeprecation` iOS 4.3
-      - Generating module map file at `Pods/Target Support Files/RCTDeprecation/RCTDeprecation.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/RCTDeprecation/RCTDeprecation-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/RCTDeprecation/RCTDeprecation-dummy.m`
-    - Installing target `RCTRequired` iOS 13.4
-    - Installing target `RCTTypeSafety` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/RCTTypeSafety/RCTTypeSafety.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/RCTTypeSafety/RCTTypeSafety-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/RCTTypeSafety/RCTTypeSafety-dummy.m`
-    - Installing target `RNCAsyncStorage` iOS 13.4
-      - Generating Info.plist file at `Pods/Target Support Files/RNCAsyncStorage/ResourceBundle-RNCAsyncStorage_resources-RNCAsyncStorage-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/RNCAsyncStorage/RNCAsyncStorage-dummy.m`
-    - Installing target `RNFS` iOS 8.0
-      - Generating dummy source at `Pods/Target Support Files/RNFS/RNFS-dummy.m`
-    - Installing target `RNGestureHandler` iOS 11.0
-      - Generating dummy source at `Pods/Target Support Files/RNGestureHandler/RNGestureHandler-dummy.m`
-    - Installing target `RNScreens` iOS 11.0
-      - Generating dummy source at `Pods/Target Support Files/RNScreens/RNScreens-dummy.m`
-    - Installing target `RNVectorIcons` iOS 12.0
-      - Generating dummy source at `Pods/Target Support Files/RNVectorIcons/RNVectorIcons-dummy.m`
-    - Installing target `React` iOS 13.4
-    - Installing target `React-Core` iOS 13.4
-      - Generating Info.plist file at `Pods/Target Support Files/React-Core/ResourceBundle-React-Core_privacy-React-Core-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/React-Core/React-Core.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-Core/React-Core-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-Core/React-Core-dummy.m`
-    - Installing target `React-CoreModules` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-CoreModules/React-CoreModules-dummy.m`
-    - Installing target `React-Fabric` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-Fabric/React-Fabric.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-Fabric/React-Fabric-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-Fabric/React-Fabric-dummy.m`
-    - Installing target `React-FabricComponents` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-FabricComponents/React-FabricComponents.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-FabricComponents/React-FabricComponents-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-FabricComponents/React-FabricComponents-dummy.m`
-    - Installing target `React-FabricImage` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-FabricImage/React-FabricImage-dummy.m`
-    - Installing target `React-ImageManager` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-ImageManager/React-ImageManager.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-ImageManager/React-ImageManager-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-ImageManager/React-ImageManager-dummy.m`
-    - Installing target `React-Mapbuffer` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-Mapbuffer/React-Mapbuffer-dummy.m`
-    - Installing target `React-NativeModulesApple` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-NativeModulesApple/React-NativeModulesApple.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-NativeModulesApple/React-NativeModulesApple-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-NativeModulesApple/React-NativeModulesApple-dummy.m`
-    - Installing target `React-RCTActionSheet` iOS 13.4
-    - Installing target `React-RCTAnimation` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-RCTAnimation/React-RCTAnimation-dummy.m`
-    - Installing target `React-RCTAppDelegate` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-RCTAppDelegate/React-RCTAppDelegate.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-RCTAppDelegate/React-RCTAppDelegate-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-RCTAppDelegate/React-RCTAppDelegate-dummy.m`
-    - Installing target `React-RCTBlob` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-RCTBlob/React-RCTBlob-dummy.m`
-    - Installing target `React-RCTFabric` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-RCTFabric/React-RCTFabric.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-RCTFabric/React-RCTFabric-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-RCTFabric/React-RCTFabric-dummy.m`
-    - Installing target `React-RCTImage` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-RCTImage/React-RCTImage-dummy.m`
-    - Installing target `React-RCTLinking` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-RCTLinking/React-RCTLinking-dummy.m`
-    - Installing target `React-RCTNetwork` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-RCTNetwork/React-RCTNetwork-dummy.m`
-    - Installing target `React-RCTSettings` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-RCTSettings/React-RCTSettings-dummy.m`
-    - Installing target `React-RCTText` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-RCTText/React-RCTText-dummy.m`
-    - Installing target `React-RCTVibration` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-RCTVibration/React-RCTVibration-dummy.m`
-    - Installing target `React-RuntimeApple` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-RuntimeApple/React-RuntimeApple-dummy.m`
-    - Installing target `React-RuntimeCore` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-RuntimeCore/React-RuntimeCore-dummy.m`
-    - Installing target `React-RuntimeHermes` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-RuntimeHermes/React-RuntimeHermes-dummy.m`
-    - Installing target `React-callinvoker` iOS 13.4
-    - Installing target `React-cxxreact` iOS 13.4
-      - Generating Info.plist file at `Pods/Target Support Files/React-cxxreact/ResourceBundle-React-cxxreact_privacy-React-cxxreact-Info.plist`
-      - Generating dummy source at `Pods/Target Support Files/React-cxxreact/React-cxxreact-dummy.m`
-    - Installing target `React-debug` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-debug/React-debug.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-debug/React-debug-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-debug/React-debug-dummy.m`
-    - Installing target `React-defaultsnativemodule` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-defaultsnativemodule/React-defaultsnativemodule.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-defaultsnativemodule/React-defaultsnativemodule-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-defaultsnativemodule/React-defaultsnativemodule-dummy.m`
-    - Installing target `React-domnativemodule` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-domnativemodule/React-domnativemodule.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-domnativemodule/React-domnativemodule-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-domnativemodule/React-domnativemodule-dummy.m`
-    - Installing target `React-featureflags` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-featureflags/React-featureflags.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-featureflags/React-featureflags-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-featureflags/React-featureflags-dummy.m`
-    - Installing target `React-featureflagsnativemodule` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-featureflagsnativemodule/React-featureflagsnativemodule.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-featureflagsnativemodule/React-featureflagsnativemodule-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-featureflagsnativemodule/React-featureflagsnativemodule-dummy.m`
-    - Installing target `React-graphics` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-graphics/React-graphics.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-graphics/React-graphics-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-graphics/React-graphics-dummy.m`
-    - Installing target `React-hermes` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-hermes/React-hermes-dummy.m`
-    - Installing target `React-idlecallbacksnativemodule` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-idlecallbacksnativemodule/React-idlecallbacksnativemodule.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-idlecallbacksnativemodule/React-idlecallbacksnativemodule-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-idlecallbacksnativemodule/React-idlecallbacksnativemodule-dummy.m`
-    - Installing target `React-jserrorhandler` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-jserrorhandler/React-jserrorhandler-dummy.m`
-    - Installing target `React-jsi` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-jsi/React-jsi.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-jsi/React-jsi-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-jsi/React-jsi-dummy.m`
-    - Installing target `React-jsiexecutor` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-jsiexecutor/React-jsiexecutor-dummy.m`
-    - Installing target `React-jsinspector` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-jsinspector/React-jsinspector.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-jsinspector/React-jsinspector-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-jsinspector/React-jsinspector-dummy.m`
-    - Installing target `React-jsitracing` iOS 13.4
-    - Installing target `React-logger` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-logger/React-logger-dummy.m`
-    - Installing target `React-microtasksnativemodule` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-microtasksnativemodule/React-microtasksnativemodule.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-microtasksnativemodule/React-microtasksnativemodule-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-microtasksnativemodule/React-microtasksnativemodule-dummy.m`
-    - Installing target `React-nativeconfig` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-nativeconfig/React-nativeconfig-dummy.m`
-    - Installing target `React-perflogger` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-perflogger/React-perflogger-dummy.m`
-    - Installing target `React-performancetimeline` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-performancetimeline/React-performancetimeline-dummy.m`
-    - Installing target `React-rendererconsistency` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-rendererconsistency/React-rendererconsistency-dummy.m`
-    - Installing target `React-rendererdebug` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-rendererdebug/React-rendererdebug.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-rendererdebug/React-rendererdebug-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-rendererdebug/React-rendererdebug-dummy.m`
-    - Installing target `React-rncore` iOS 13.4
-    - Installing target `React-runtimeexecutor` iOS 13.4
-    - Installing target `React-runtimescheduler` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/React-runtimescheduler/React-runtimescheduler-dummy.m`
-    - Installing target `React-utils` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/React-utils/React-utils.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/React-utils/React-utils-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/React-utils/React-utils-dummy.m`
-    - Installing target `ReactCodegen` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/ReactCodegen/ReactCodegen.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/ReactCodegen/ReactCodegen-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/ReactCodegen/ReactCodegen-dummy.m`
-    - Installing target `ReactCommon` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/ReactCommon/ReactCommon.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/ReactCommon/ReactCommon-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/ReactCommon/ReactCommon-dummy.m`
-    - Installing target `SocketRocket` iOS 11.0
-      - Generating dummy source at `Pods/Target Support Files/SocketRocket/SocketRocket-dummy.m`
-    - Installing target `Yoga` iOS 13.4
-      - Generating module map file at `Pods/Target Support Files/Yoga/Yoga.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/Yoga/Yoga-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/Yoga/Yoga-dummy.m`
-    - Installing target `boost` iOS 13.4
-      - Generating Info.plist file at `Pods/Target Support Files/boost/ResourceBundle-boost_privacy-boost-Info.plist`
-    - Installing target `fmt` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/fmt/fmt-dummy.m`
-    - Installing target `glog` iOS 13.4
-      - Generating Info.plist file at `Pods/Target Support Files/glog/ResourceBundle-glog_privacy-glog-Info.plist`
-      - Generating module map file at `Pods/Target Support Files/glog/glog.modulemap`
-      - Generating umbrella header at `Pods/Target Support Files/glog/glog-umbrella.h`
-      - Generating dummy source at `Pods/Target Support Files/glog/glog-dummy.m`
-    - Installing target `hermes-engine` iOS 13.4
-    - Installing target `powersync-sqlite-core` iOS 11.0
-    - Installing target `react-native-mmkv` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/react-native-mmkv/react-native-mmkv-dummy.m`
-    - Installing target `react-native-quick-sqlite` iOS 10.0
-      - Generating dummy source at `Pods/Target Support Files/react-native-quick-sqlite/react-native-quick-sqlite-dummy.m`
-    - Installing target `react-native-safe-area-context` iOS 12.4
-      - Generating dummy source at `Pods/Target Support Files/react-native-safe-area-context/react-native-safe-area-context-dummy.m`
-  - Installing Aggregate Targets
-    - Installing target `Pods-MyAwesomeProjectV2` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/Pods-MyAwesomeProjectV2/Pods-MyAwesomeProjectV2-dummy.m`
-    - Installing target `Pods-MyAwesomeProjectV2-MyAwesomeProjectV2Tests` iOS 13.4
-      - Generating dummy source at `Pods/Target Support Files/Pods-MyAwesomeProjectV2-MyAwesomeProjectV2Tests/Pods-MyAwesomeProjectV2-MyAwesomeProjectV2Tests-dummy.m`
-  - Integrating targets
-
-Integrating target `React-Fabric`
-    Adding Build Phase '[CP-User] [RN]Check rncore' to project.
-
-Integrating target `React-FabricComponents`
-    Adding Build Phase '[CP-User] [RN]Check rncore' to project.
-
-Integrating target `ReactCodegen`
-    Adding Build Phase '[CP-User] Generate Specs' to project.
-
-Integrating target `hermes-engine`
-    Adding Build Phase '[CP] Copy XCFrameworks' to project.
-    Adding Build Phase '[CP-User] [Hermes] Replace Hermes for the right configuration, if needed' to project.
-
-Integrating target `powersync-sqlite-core`
-    Adding Build Phase '[CP] Copy XCFrameworks' to project.
-  - Stabilizing target UUIDs
-  - Running post install hooks
-Setting USE_HERMES build settings
-Setting REACT_NATIVE_PATH build settings
-Setting SWIFT_ACTIVE_COMPILATION_CONDITIONS build settings
-[Ccache]: Removing Ccache from CC, LD, CXX & LDPLUSPLUS build settings
-[SPM] Cleaning old SPM dependencies from Pods project
-[SPM] Adding SPM dependencies to Pods project
-[Privacy Manifest Aggregation] Appending aggregated reasons to existing PrivacyInfo.xcprivacy file.
-[Privacy Manifest Aggregation] Reading .xcprivacy files to aggregate all used Required Reason APIs.
-Setting CLANG_CXX_LANGUAGE_STANDARD to c++20 on /Users/kernel/Documents/MyAwesomeProjectV2/ios/MyAwesomeProjectV2.xcodeproj
-Pod install took 6 [s] to run
-    - Podfile
-  - Writing Xcode project file to `Pods/Pods.xcodeproj`
-  Cleaning up sandbox directory
-
-Integrating client project
-
-Integrating target `Pods-MyAwesomeProjectV2` (`MyAwesomeProjectV2.xcodeproj` project)
-
-Integrating target `Pods-MyAwesomeProjectV2-MyAwesomeProjectV2Tests` (`MyAwesomeProjectV2.xcodeproj` project)
-  - Running post integrate hooks
-  - Writing Lockfile in `Podfile.lock`
-  - Writing Manifest in `Pods/Manifest.lock`
-  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
-
--> Pod installation complete! There are 72 dependencies from the Podfile and 72 total pods installed.
+[!] CocoaPods could not find compatible versions for pod "powersync-sqlite-core":
+  In snapshot (Podfile.lock):
+    powersync-sqlite-core (= 0.2.1, ~> 0.2.1)
+
+  In Podfile:
+    react-native-quick-sqlite (from `../node_modules/@journeyapps/react-native-quick-sqlite`) was resolved to 2.0.0, which depends on
+      powersync-sqlite-core (~> 0.3.0)
+
+Specs satisfying the `powersync-sqlite-core (= 0.2.1, ~> 0.2.1), powersync-sqlite-core (~> 0.3.0)` dependency were found, but they required a higher minimum deployment target.
+
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:317:in `raise_error_unless_state'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:299:in `block in unwind_for_conflict'
+<internal:kernel>:90:in `tap'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:297:in `unwind_for_conflict'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:257:in `process_topmost_state'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:182:in `resolve'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/molinillo-0.8.0/lib/molinillo/resolver.rb:43:in `resolve'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/resolver.rb:94:in `resolve'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/installer/analyzer.rb:1082:in `block in resolve_dependencies'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/user_interface.rb:64:in `section'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/installer/analyzer.rb:1080:in `resolve_dependencies'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/installer/analyzer.rb:125:in `analyze'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/installer.rb:422:in `analyze'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/installer.rb:244:in `block in resolve_dependencies'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/user_interface.rb:64:in `section'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/installer.rb:243:in `resolve_dependencies'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/installer.rb:162:in `install!'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/command/install.rb:52:in `run'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/claide-1.1.0/lib/claide/command.rb:334:in `run'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/lib/cocoapods/command.rb:52:in `run'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/cocoapods-1.15.2/bin/pod:55:in `<top (required)>'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/bin/pod:25:in `load'
+/Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/bin/pod:25:in `<top (required)>'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/3.2.0/bundler/cli/exec.rb:58:in `load'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/3.2.0/bundler/cli/exec.rb:58:in `kernel_load'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/3.2.0/bundler/cli/exec.rb:23:in `run'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/3.2.0/bundler/cli.rb:492:in `exec'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/3.2.0/bundler/cli.rb:34:in `dispatch'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/3.2.0/bundler/cli.rb:28:in `start'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/bundler-2.4.10/libexec/bundle:45:in `block in <top (required)>'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/3.2.0/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+/Users/kernel/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/bundler-2.4.10/libexec/bundle:33:in `<top (required)>'
+/Users/kernel/.rbenv/versions/3.2.2/bin/bundle:25:in `load'
+/Users/kernel/.rbenv/versions/3.2.2/bin/bundle:25:in `<main>'

@@ -3,6 +3,8 @@ import {column, Schema, Table} from '@powersync/react-native';
 
 export const LISTS_TABLE = 'lists';
 export const TODOS_TABLE = 'todos';
+export const PACK_A_TABLE = 'pack_a';
+export const PACK_B_TABLE = 'pack_b';
 
 const todos = new Table(
   {
@@ -23,9 +25,19 @@ const lists = new Table({
   owner_id: column.text,
 });
 
+const pack_a = new Table({
+  name: column.text,
+});
+
+const pack_b = new Table({
+  name: column.text,
+});
+
 export const AppSchema = new Schema({
   todos,
   lists,
+  pack_a,
+  pack_b,
 });
 
 export type Database = (typeof AppSchema)['types'];
@@ -34,3 +46,5 @@ export type TodoRecord = Database['todos'];
 // export type Todo = RowType<typeof todos>;
 
 export type ListRecord = Database['lists'];
+export type PackARecord = Database['pack_a'];
+export type PackBRecord = Database['pack_b'];
