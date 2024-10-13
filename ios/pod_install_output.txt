@@ -1,4 +1,4 @@
-  $ /private/var/folders/_z/4c1z6dzs1yl06lllfgd0plnc0000gp/T/xfs-4703f24f/node -p require.resolve(     "react-native/scripts/react_native_pods.rb",     {paths: [process.argv[1]]},   ) /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios
+  $ /private/var/folders/_z/4c1z6dzs1yl06lllfgd0plnc0000gp/T/xfs-89f1b117/node -p require.resolve(     "react-native/scripts/react_native_pods.rb",     {paths: [process.argv[1]]},   ) /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios
   /Users/kernel/Documents/elearning-react-native-supabase-powersync/node_modules/react-native/scripts/react_native_pods.rb
 [react-native-mmkv] Thank you for using react-native-mmkv ❤️
 [react-native-mmkv] If you enjoy using react-native-mmkv, please consider sponsoring this project: https://github.com/sponsors/mrousavy
@@ -11,7 +11,7 @@ Framework build type is static library
 [Codegen] Adding script_phases to ReactCodegen.
   $ /bin/mkdir -p ./build/generated/ios
 [Codegen] Generating ./build/generated/ios/ReactCodegen.podspec.json
-  $ /private/var/folders/_z/4c1z6dzs1yl06lllfgd0plnc0000gp/T/xfs-4703f24f/node ./../node_modules/react-native/scripts/generate-codegen-artifacts.js -p /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/.. -o /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios -t ios
+  $ /private/var/folders/_z/4c1z6dzs1yl06lllfgd0plnc0000gp/T/xfs-89f1b117/node ./../node_modules/react-native/scripts/generate-codegen-artifacts.js -p /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios/.. -o /Users/kernel/Documents/elearning-react-native-supabase-powersync/ios -t ios
   [Codegen] Analyzing /Users/kernel/Documents/elearning-react-native-supabase-powersync/package.json
   [Codegen] Searching for codegen-enabled libraries in the app.
   [Codegen] The "codegenConfig" field is not defined in package.json. Assuming there is nothing to generate at the app level.
@@ -273,16 +273,20 @@ Resolving dependencies of `Podfile`
   CDN: trunk Relative path: all_pods_versions_a_9_3.txt exists! Returning local because checking is only performed in repo update
   CDN: trunk Relative path: Specs/a/9/3/SocketRocket/0.7.1/SocketRocket.podspec.json exists! Returning local because checking is only performed in repo update
   CDN: trunk Relative path: all_pods_versions_5_b_e.txt exists! Returning local because checking is only performed in repo update
-  CDN: trunk Relative path: Specs/5/b/e/powersync-sqlite-core/0.2.1/powersync-sqlite-core.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/5/b/e/powersync-sqlite-core/0.3.0/powersync-sqlite-core.podspec.json exists! Returning local because checking is only performed in repo update
 [!] CocoaPods could not find compatible versions for pod "powersync-sqlite-core":
   In snapshot (Podfile.lock):
-    powersync-sqlite-core (= 0.2.1, ~> 0.2.1)
+    powersync-sqlite-core (= 0.3.0, ~> 0.3.0)
 
   In Podfile:
-    react-native-quick-sqlite (from `../node_modules/@journeyapps/react-native-quick-sqlite`) was resolved to 2.0.0, which depends on
-      powersync-sqlite-core (~> 0.3.0)
+    react-native-quick-sqlite (from `../node_modules/@journeyapps/react-native-quick-sqlite`) was resolved to 1.4.0, which depends on
+      powersync-sqlite-core (~> 0.2.1)
 
-Specs satisfying the `powersync-sqlite-core (= 0.2.1, ~> 0.2.1), powersync-sqlite-core (~> 0.3.0)` dependency were found, but they required a higher minimum deployment target.
+
+You have either:
+ * out-of-date source repos which you can update with `pod repo update` or with `pod install --repo-update`.
+ * changed the constraints of dependency `powersync-sqlite-core` inside your development pod `react-native-quick-sqlite`.
+   You should run `pod update powersync-sqlite-core` to apply changes you've made.
 
 /Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:317:in `raise_error_unless_state'
 /Users/kernel/Documents/elearning-react-native-supabase-powersync/vendor/bundle/ruby/3.2.0/gems/molinillo-0.8.0/lib/molinillo/resolution.rb:299:in `block in unwind_for_conflict'

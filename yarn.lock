@@ -1971,13 +1971,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@journeyapps/react-native-quick-sqlite@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@journeyapps/react-native-quick-sqlite@npm:2.0.0"
+"@journeyapps/react-native-quick-sqlite@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@journeyapps/react-native-quick-sqlite@npm:1.4.0"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: 41cc7a48143c28aa0295add1a033df2c9db59287b883f78457dac02cc59a182d1f91962da399176d41540be9c3b9b292e936fe3b902d720809f613d5b39889da
+  checksum: b37e4489d877a5a4970374019c343b6c828472151cbd5218f503f50a065fc39f1ecf2697241e6e16f1d8c3f698c7474efc57eedc4c9b06a141685ef09abbb1db
   languageName: node
   linkType: hard
 
@@ -3176,7 +3176,7 @@ __metadata:
     "@babel/plugin-transform-async-generator-functions": ^7.25.4
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@journeyapps/react-native-quick-sqlite": ^2.0.0
+    "@journeyapps/react-native-quick-sqlite": ^1.4.0
     "@powersync/attachments": ^2.1.2
     "@powersync/react-native": ^1.12.4
     "@react-native-async-storage/async-storage": ^2.0.0
